@@ -1,0 +1,47 @@
+{
+    "departure_date": "2026-12-26",
+    "return_date": "2027-01-02",
+
+    "adults": 5,
+    "children_ages": [
+        6,
+        5
+    ],
+
+    "origins": [
+        "SLP",
+        "GDL",
+        "QRO"
+    ],
+
+    "destinations": [
+        "MID"
+    ],
+
+    "airlines": [
+        "Volaris",
+        "Aeromexico",
+        "Viva Aerobus"
+    ],
+
+    "max_price_per_person": 6500,
+
+    "max_total_price": 45500,
+
+    "max_stops": 1,
+    "max_connection_minutes": 300,
+
+    "checked_bags": 4,
+
+    "currency": "MXN",
+
+    "check_interval_minutes": 60,
+    "aeromexico_serpapi_crosscheck_interval_minutes": 2160,
+
+    "min_sanity_price_per_person": 2000,
+
+    "sources": {
+        "serpapi": true,
+        "direct_airlines": false
+    }
+}

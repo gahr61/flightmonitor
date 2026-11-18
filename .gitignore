@@ -1,0 +1,33 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/*.db
+
+# Secretos
+.env
+
+# Entornos virtuales y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Bases de datos locales
+data/*.db
+
+# Estado de ejecución y bitácoras
+data/
+logs/
+
+# Respuestas volcadas (no son código)
+booking_response.json
+booking_response.zip
+
+# Capturas de red pesadas (tests/output ya tiene su propio .gitignore)
+tests/output/
+
+# Archivos de bloqueo locales de Claude
+.claude/*.lock
+
+# Copias de JavaScript de terceros
+tests/volaris_js/

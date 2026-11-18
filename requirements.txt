@@ -1,0 +1,13 @@
+requests
+python-dotenv
+# Necesario para que requests confíe en la cadena de
+# certificados del sistema (Windows). Sin esto, las
+# llamadas a la API de Volaris fallan con
+# CERTIFICATE_VERIFY_FAILED en equipos con Avast u
+# otro software que intercepta HTTPS.
+pip-system-certs
+# Necesario para VivaDirect: Viva Aerobús está protegido
+# por Akamai y solo responde a un navegador real, no a
+# requests. Después de instalar este paquete hay que
+# correr una vez: python -m playwright install chromium
+playwright
